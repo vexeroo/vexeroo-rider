@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5CA4282B4152C80048A58C /* vexeroo_riderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA4272B4152C80048A58C /* vexeroo_riderApp.swift */; };
+		AE5CA42A2B4152C80048A58C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA4292B4152C80048A58C /* Persistence.swift */; };
+		AE5CA42D2B4152C80048A58C /* vexeroo_rider.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA42B2B4152C80048A58C /* vexeroo_rider.xcdatamodeld */; };
+		AE5CA42F2B4152C80048A58C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA42E2B4152C80048A58C /* ContentView.swift */; };
+		AE5CA4312B4152D00048A58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5CA4302B4152D00048A58C /* Assets.xcassets */; };
+		AE5CA4352B4152D00048A58C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5CA4342B4152D00048A58C /* Preview Assets.xcassets */; };
+		AE5CA43F2B4152D10048A58C /* vexeroo_riderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA43E2B4152D10048A58C /* vexeroo_riderTests.swift */; };
+		AE5CA4492B4152D10048A58C /* vexeroo_riderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA4482B4152D10048A58C /* vexeroo_riderUITests.swift */; };
+		AE5CA44B2B4152D10048A58C /* vexeroo_riderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CA44A2B4152D10048A58C /* vexeroo_riderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5CA43B2B4152D10048A58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5CA41C2B4152C80048A58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5CA4232B4152C80048A58C;
+			remoteInfo = "vexeroo-rider";
+		};
+		AE5CA4452B4152D10048A58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5CA41C2B4152C80048A58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5CA4232B4152C80048A58C;
+			remoteInfo = "vexeroo-rider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE5CA4242B4152C80048A58C /* vexeroo-rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vexeroo-rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5CA4272B4152C80048A58C /* vexeroo_riderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vexeroo_riderApp.swift; sourceTree = "<group>"; };
+		AE5CA4292B4152C80048A58C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AE5CA42C2B4152C80048A58C /* vexeroo_rider.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vexeroo_rider.xcdatamodel; sourceTree = "<group>"; };
+		AE5CA42E2B4152C80048A58C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE5CA4302B4152D00048A58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5CA4322B4152D00048A58C /* vexeroo_rider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vexeroo_rider.entitlements; sourceTree = "<group>"; };
+		AE5CA4342B4152D00048A58C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5CA43A2B4152D10048A58C /* vexeroo-riderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vexeroo-riderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5CA43E2B4152D10048A58C /* vexeroo_riderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vexeroo_riderTests.swift; sourceTree = "<group>"; };
+		AE5CA4442B4152D10048A58C /* vexeroo-riderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vexeroo-riderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5CA4482B4152D10048A58C /* vexeroo_riderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vexeroo_riderUITests.swift; sourceTree = "<group>"; };
+		AE5CA44A2B4152D10048A58C /* vexeroo_riderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vexeroo_riderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5CA4212B4152C80048A58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4372B4152D10048A58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4412B4152D10048A58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5CA41B2B4152C80048A58C = {
+			isa = PBXGroup;
+			children = (
+				AE5CA4262B4152C80048A58C /* vexeroo-rider */,
+				AE5CA43D2B4152D10048A58C /* vexeroo-riderTests */,
+				AE5CA4472B4152D10048A58C /* vexeroo-riderUITests */,
+				AE5CA4252B4152C80048A58C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5CA4252B4152C80048A58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CA4242B4152C80048A58C /* vexeroo-rider.app */,
+				AE5CA43A2B4152D10048A58C /* vexeroo-riderTests.xctest */,
+				AE5CA4442B4152D10048A58C /* vexeroo-riderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5CA4262B4152C80048A58C /* vexeroo-rider */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CA4272B4152C80048A58C /* vexeroo_riderApp.swift */,
+				AE5CA4292B4152C80048A58C /* Persistence.swift */,
+				AE5CA42E2B4152C80048A58C /* ContentView.swift */,
+				AE5CA4302B4152D00048A58C /* Assets.xcassets */,
+				AE5CA4322B4152D00048A58C /* vexeroo_rider.entitlements */,
+				AE5CA42B2B4152C80048A58C /* vexeroo_rider.xcdatamodeld */,
+				AE5CA4332B4152D00048A58C /* Preview Content */,
+			);
+			path = "vexeroo-rider";
+			sourceTree = "<group>";
+		};
+		AE5CA4332B4152D00048A58C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CA4342B4152D00048A58C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE5CA43D2B4152D10048A58C /* vexeroo-riderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CA43E2B4152D10048A58C /* vexeroo_riderTests.swift */,
+			);
+			path = "vexeroo-riderTests";
+			sourceTree = "<group>";
+		};
+		AE5CA4472B4152D10048A58C /* vexeroo-riderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5CA4482B4152D10048A58C /* vexeroo_riderUITests.swift */,
+				AE5CA44A2B4152D10048A58C /* vexeroo_riderUITestsLaunchTests.swift */,
+			);
+			path = "vexeroo-riderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5CA4232B4152C80048A58C /* vexeroo-rider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5CA44E2B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-rider" */;
+			buildPhases = (
+				AE5CA4202B4152C80048A58C /* Sources */,
+				AE5CA4212B4152C80048A58C /* Frameworks */,
+				AE5CA4222B4152C80048A58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vexeroo-rider";
+			productName = "vexeroo-rider";
+			productReference = AE5CA4242B4152C80048A58C /* vexeroo-rider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5CA4392B4152D10048A58C /* vexeroo-riderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5CA4512B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-riderTests" */;
+			buildPhases = (
+				AE5CA4362B4152D10048A58C /* Sources */,
+				AE5CA4372B4152D10048A58C /* Frameworks */,
+				AE5CA4382B4152D10048A58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5CA43C2B4152D10048A58C /* PBXTargetDependency */,
+			);
+			name = "vexeroo-riderTests";
+			productName = "vexeroo-riderTests";
+			productReference = AE5CA43A2B4152D10048A58C /* vexeroo-riderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE5CA4432B4152D10048A58C /* vexeroo-riderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5CA4542B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-riderUITests" */;
+			buildPhases = (
+				AE5CA4402B4152D10048A58C /* Sources */,
+				AE5CA4412B4152D10048A58C /* Frameworks */,
+				AE5CA4422B4152D10048A58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5CA4462B4152D10048A58C /* PBXTargetDependency */,
+			);
+			name = "vexeroo-riderUITests";
+			productName = "vexeroo-riderUITests";
+			productReference = AE5CA4442B4152D10048A58C /* vexeroo-riderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5CA41C2B4152C80048A58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AE5CA4232B4152C80048A58C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					AE5CA4392B4152D10048A58C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AE5CA4232B4152C80048A58C;
+					};
+					AE5CA4432B4152D10048A58C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = AE5CA4232B4152C80048A58C;
+					};
+				};
+			};
+			buildConfigurationList = AE5CA41F2B4152C80048A58C /* Build configuration list for PBXProject "vexeroo-rider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5CA41B2B4152C80048A58C;
+			productRefGroup = AE5CA4252B4152C80048A58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5CA4232B4152C80048A58C /* vexeroo-rider */,
+				AE5CA4392B4152D10048A58C /* vexeroo-riderTests */,
+				AE5CA4432B4152D10048A58C /* vexeroo-riderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5CA4222B4152C80048A58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5CA4352B4152D00048A58C /* Preview Assets.xcassets in Resources */,
+				AE5CA4312B4152D00048A58C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4382B4152D10048A58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4422B4152D10048A58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5CA4202B4152C80048A58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5CA42D2B4152C80048A58C /* vexeroo_rider.xcdatamodeld in Sources */,
+				AE5CA4282B4152C80048A58C /* vexeroo_riderApp.swift in Sources */,
+				AE5CA42F2B4152C80048A58C /* ContentView.swift in Sources */,
+				AE5CA42A2B4152C80048A58C /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4362B4152D10048A58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5CA43F2B4152D10048A58C /* vexeroo_riderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5CA4402B4152D10048A58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5CA44B2B4152D10048A58C /* vexeroo_riderUITestsLaunchTests.swift in Sources */,
+				AE5CA4492B4152D10048A58C /* vexeroo_riderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5CA43C2B4152D10048A58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5CA4232B4152C80048A58C /* vexeroo-rider */;
+			targetProxy = AE5CA43B2B4152D10048A58C /* PBXContainerItemProxy */;
+		};
+		AE5CA4462B4152D10048A58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5CA4232B4152C80048A58C /* vexeroo-rider */;
+			targetProxy = AE5CA4452B4152D10048A58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE5CA44C2B4152D10048A58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE5CA44D2B4152D10048A58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE5CA44F2B4152D10048A58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "vexeroo-rider/vexeroo_rider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vexeroo-rider/Preview Content\"";
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE5CA4502B4152D10048A58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "vexeroo-rider/vexeroo_rider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vexeroo-rider/Preview Content\"";
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE5CA4522B4152D10048A58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-riderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vexeroo-rider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vexeroo-rider";
+			};
+			name = Debug;
+		};
+		AE5CA4532B4152D10048A58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-riderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vexeroo-rider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vexeroo-rider";
+			};
+			name = Release;
+		};
+		AE5CA4552B4152D10048A58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-riderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vexeroo-rider";
+			};
+			name = Debug;
+		};
+		AE5CA4562B4152D10048A58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRZ5HGV95S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bAInaryglobe.vexeroo-riderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vexeroo-rider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5CA41F2B4152C80048A58C /* Build configuration list for PBXProject "vexeroo-rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5CA44C2B4152D10048A58C /* Debug */,
+				AE5CA44D2B4152D10048A58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5CA44E2B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5CA44F2B4152D10048A58C /* Debug */,
+				AE5CA4502B4152D10048A58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5CA4512B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-riderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5CA4522B4152D10048A58C /* Debug */,
+				AE5CA4532B4152D10048A58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5CA4542B4152D10048A58C /* Build configuration list for PBXNativeTarget "vexeroo-riderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5CA4552B4152D10048A58C /* Debug */,
+				AE5CA4562B4152D10048A58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE5CA42B2B4152C80048A58C /* vexeroo_rider.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE5CA42C2B4152C80048A58C /* vexeroo_rider.xcdatamodel */,
+			);
+			currentVersion = AE5CA42C2B4152C80048A58C /* vexeroo_rider.xcdatamodel */;
+			path = vexeroo_rider.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE5CA41C2B4152C80048A58C /* Project object */;
+}
